@@ -1,20 +1,22 @@
-import logo from '../../assets/img/logo.svg'
+import logo from '../../assets/img/logo.svg';
 
-import './styles.css'
+import'./styles.css';
 
- function Header() {
-  return(
-    <header>
-        <div className="dsmeta-logo-container">
-            <img src={logo} alt="DSMeta" />
-            <h1>DSMeta</h1>
-            <p>
-              Desenvolvido por
-              <a href="https://www.instagram.com/devsuperior.ig">: Carlos Henrique</a>
-            </p>
-        </div>
-    </header> 
-  )
+function Header() {
+    return (
+
+        <header>
+            <div className="dsmeta-logo-container">
+                <img src={logo} alt="DSMeta" />
+                <h1>DSMeta</h1>
+                <p>
+                    Desenvolvido por
+                    <a href="https://github.com/Carlos-Henrique93/dsmeta"> Carlos Henrique</a>
+                </p>
+            </div>
+        </header>
+
+    )
 }
 
-export default Header
+export default Header;
